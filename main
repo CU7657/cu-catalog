@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CU Catalog</title>
     <style>
-        /* 간단한 기본 스타일 */
+        /* Basic styles for a clean default page */
         body {
             font-family: Arial, sans-serif;
             margin: 0;
@@ -17,6 +17,7 @@
             justify-content: center;
             height: 100vh;
             color: #333;
+            text-align: center;
         }
         h1 {
             margin-bottom: 10px;
@@ -28,6 +29,18 @@
 </head>
 <body>
     <h1>CU Catalog</h1>
-    <p>사이트가 정상적으로 표시됩니다.</p>
+    <p>Welcome! This page is ready for Mailchimp popup integration.</p>
+
+    <!-- Mailchimp popup script -->
+    <script id="mcjs">
+        !function(c,h,i,m,p){
+            m=c.createElement(h),
+            p=c.getElementsByTagName(h)[0],
+            m.async=1,
+            m.src=i,
+            p.parentNode.insertBefore(m,p)
+        }(document,"script","https://chimpstatic.com/mcjs-connected/js/users/d1343bade263426003d/14f22106b281cca7488a810e0.js");
+    </script>
 </body>
 </html>
+
