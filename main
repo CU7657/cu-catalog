@@ -1,23 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mailchimp Popup Test</title>
+    <title>CU Catalog</title>
 </head>
 <body>
-    <h1>Mail Subscription Test Page</h1>
-    <p>This page is for testing the Mailchimp popup integration.</p>
-
-    <!-- Mailchimp popup script -->
-    <script id="mcjs">
-        !function(c,h,i,m,p){
-            m=c.createElement(h),
-            p=c.getElementsByTagName(h)[0],
-            m.async=1,
-            m.src=i,
-            p.parentNode.insertBefore(m,p)
-        }(document,"script","https://chimpstatic.com/mcjs-connected/js/users/d1343bade263426003d02479d/14f22106b281cca7488a810e0.js");
-    </script>
+    <!-- 최소한의 내용 -->
+    <h1>CU Catalog</h1>
+    <p>이 페이지는 정상적으로 표시됩니다.</p>
 </body>
 </html>
